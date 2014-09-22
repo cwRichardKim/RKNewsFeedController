@@ -14,13 +14,14 @@
 		9976F74A19AD839A009FE604 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976F74919AD839A009FE604 /* main.m */; };
 		9976F74E19AD839A009FE604 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976F74D19AD839A009FE604 /* AppDelegate.m */; };
 		9976F75119AD839A009FE604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9976F74F19AD839A009FE604 /* Main.storyboard */; };
-		9976F75419AD839A009FE604 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976F75319AD839A009FE604 /* ViewController.m */; };
 		9976F75619AD839A009FE604 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9976F75519AD839A009FE604 /* Images.xcassets */; };
 		9976F75D19AD839A009FE604 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9976F75C19AD839A009FE604 /* XCTest.framework */; };
 		9976F75E19AD839A009FE604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9976F73D19AD839A009FE604 /* Foundation.framework */; };
 		9976F75F19AD839A009FE604 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9976F74119AD839A009FE604 /* UIKit.framework */; };
 		9976F76719AD839A009FE604 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9976F76519AD839A009FE604 /* InfoPlist.strings */; };
 		9976F76919AD839A009FE604 /* RKCardFeedControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976F76819AD839A009FE604 /* RKCardFeedControllerTests.m */; };
+		9976F77419AD849A009FE604 /* RKCardFeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976F77319AD849A009FE604 /* RKCardFeedController.m */; };
+		9976F77719AD84EB009FE604 /* RKCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976F77619AD84EB009FE604 /* RKCardCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		9976F74C19AD839A009FE604 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9976F74D19AD839A009FE604 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9976F75019AD839A009FE604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9976F75219AD839A009FE604 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9976F75319AD839A009FE604 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9976F75519AD839A009FE604 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9976F75B19AD839A009FE604 /* RKCardFeedControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKCardFeedControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9976F75C19AD839A009FE604 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9976F76419AD839A009FE604 /* RKCardFeedControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RKCardFeedControllerTests-Info.plist"; sourceTree = "<group>"; };
 		9976F76619AD839A009FE604 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9976F76819AD839A009FE604 /* RKCardFeedControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKCardFeedControllerTests.m; sourceTree = "<group>"; };
+		9976F77219AD849A009FE604 /* RKCardFeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCardFeedController.h; sourceTree = SOURCE_ROOT; };
+		9976F77319AD849A009FE604 /* RKCardFeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCardFeedController.m; sourceTree = SOURCE_ROOT; };
+		9976F77519AD84EB009FE604 /* RKCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCardCell.h; sourceTree = "<group>"; };
+		9976F77619AD84EB009FE604 /* RKCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCardCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				9976F74C19AD839A009FE604 /* AppDelegate.h */,
 				9976F74D19AD839A009FE604 /* AppDelegate.m */,
 				9976F74F19AD839A009FE604 /* Main.storyboard */,
-				9976F75219AD839A009FE604 /* ViewController.h */,
-				9976F75319AD839A009FE604 /* ViewController.m */,
+				9976F77219AD849A009FE604 /* RKCardFeedController.h */,
+				9976F77319AD849A009FE604 /* RKCardFeedController.m */,
+				9976F77519AD84EB009FE604 /* RKCardCell.h */,
+				9976F77619AD84EB009FE604 /* RKCardCell.m */,
 				9976F75519AD839A009FE604 /* Images.xcassets */,
 				9976F74419AD839A009FE604 /* Supporting Files */,
 			);
@@ -249,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9976F75419AD839A009FE604 /* ViewController.m in Sources */,
+				9976F77419AD849A009FE604 /* RKCardFeedController.m in Sources */,
 				9976F74E19AD839A009FE604 /* AppDelegate.m in Sources */,
+				9976F77719AD84EB009FE604 /* RKCardCell.m in Sources */,
 				9976F74A19AD839A009FE604 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

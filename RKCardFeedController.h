@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RKCardFeedController.h
 //  RKCardFeedController
 //
 //  Created by Richard Kim on 8/26/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RKCardFeedController : UITableViewController
 
 @end

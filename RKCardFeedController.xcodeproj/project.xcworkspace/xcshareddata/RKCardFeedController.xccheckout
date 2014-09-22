@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F43F949-A84A-410E-93A7-895365C845A9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RKCardFeedController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3ADE6FB1C7D0BE116F0C244D5C8A305E20B1AE75</key>
+		<string>https://github.com/cwRichardKim/RKNewsFeedController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RKCardFeedController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3ADE6FB1C7D0BE116F0C244D5C8A305E20B1AE75</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cwRichardKim/RKNewsFeedController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3ADE6FB1C7D0BE116F0C244D5C8A305E20B1AE75</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3ADE6FB1C7D0BE116F0C244D5C8A305E20B1AE75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RKCardFeedController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
